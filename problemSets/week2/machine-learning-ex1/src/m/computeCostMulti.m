@@ -13,9 +13,13 @@ J = 0;
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
+h = X * theta;
 
-
-
+% Given an n-dimentional vector v, we can compute the sum (a scalar, S) of
+% the squares of each element in v as follows:
+%   S = v' * v
+% We apply this principle to the vector (h - y) below.
+J = (1 / (2 * m)) * (h - y)' * (h - y);
 
 % =========================================================================
 

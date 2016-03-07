@@ -11,12 +11,6 @@ function A = warmUpExercise()
 %               and then set them accordingly. 
 A = eye(5);
 
-
-
-
-
-
-
 % ===========================================
 
 
