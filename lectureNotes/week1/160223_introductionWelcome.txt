@@ -1,0 +1,13 @@
+2/27/2016 5:19:24 PM
+
+In this course, we learn about ML algos and then apply them to real-world
+problems.
+
+Examples of ML:
+  - Database mining: Large databases arose due to growth of the internet.
+  - Applications that we cannot engineer by hand.
+  - Self-customizing applications: Customized recommendations.
+  - Understanding human learning: Artificial intelligence.
+
+Next time, we will define ML and other ML terminologies.
+

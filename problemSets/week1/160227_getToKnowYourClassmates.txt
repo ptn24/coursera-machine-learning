@@ -1,0 +1,13 @@
+2/27/2016 11:08:08 PM
+
+My name is Peter Nguyen and I currently reside in Mountain View, CA. I
+graduated from MIT with degrees in Computer Science and Molecular Biology, and
+Biological Engineering. I am currently a software engineer at a biotechnology
+startup. With machine learning, I aim to one day build intelligent systems to
+facilitate medical research, expedite diagnostic and therapeutic development,
+and deliver real-time personalized medicine.
+
+---Begin---
+My name is Peter Nguyen and I currently reside in Mountain View, CA. I graduated from MIT with degrees in Computer Science and Molecular Biology, and Biological Engineering. I am currently a software engineer at a biotechnology startup. With machine learning, I aim to one day build intelligent systems to facilitate medical research, expedite diagnostic and therapeutic development, and deliver real-time personalized medicine.
+---End---
+

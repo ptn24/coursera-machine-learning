@@ -1,0 +1,18 @@
+3/1/2016 12:57:17 AM
+
+Example: Predicting housing prices.
+Question: Do we want to draw a straight line, or a quadratic line, through the
+data?
+
+Supervised learning occurs when the "right answers" are given.
+In the housing prices dataset, the actual prices at which the houses were sold
+were given.
+
+Supervised learning can be broken down into two types:
+  - Regression: Predict continuous-valued output (e.g., price).
+  - Classification: Predict discrete-valued output (e.g., given plot of age
+    versus tumor size, we draw a line to separate the data).
+
+Question: How can we deal with infinite number of features?
+Answer: Support vector machine (SVM).
+

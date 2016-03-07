@@ -1,0 +1,25 @@
+3/1/2016 1:01:09 AM
+
+Unsupervised learning.
+
+In unsupervised learning, we are given data that have no labels.
+We must derive structure from the data.
+
+Examples of clustering:
+  - Groups of stories on gnews.
+  - Understanding genomics.
+  - Market segmentation.
+
+Another example of unsupervised learning is associative memory.
+
+Example: Cocktail party problem.
+The goal is to separate audio sources from a combined recording.
+This is one-liner in Octave.
+Used single value decomposition (SVD).
+
+*It is good idea to prototype our ML algo in Octave and then migrate it to
+C++ or the like later. This saves on time to prototype.*
+
+Next time, we will learn about specific learning algos and how to implement
+them.
+
