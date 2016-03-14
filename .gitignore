@@ -1,3 +1,6 @@
+problemSets/*/*/src/m/lib/jsonlab/
+
 problemSets/*/*/src/m/token.mat
+
 *.pdf
 *.asv
