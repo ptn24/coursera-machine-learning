@@ -1,0 +1,3 @@
+[submodule "matlab-schemer"]
+	path = matlab-schemer
+	url = git@github.com:scottclowe/matlab-schemer.git
