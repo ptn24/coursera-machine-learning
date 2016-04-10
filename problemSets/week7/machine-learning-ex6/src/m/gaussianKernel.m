@@ -16,6 +16,7 @@ x1 = x1(:); x2 = x2(:);
 %
 %
 
+% TODO: Add regression tests.
 x_diff = x1 - x2;
 sim = exp(-(x_diff' * x_diff) / (2 * sigma ^ 2));
 
