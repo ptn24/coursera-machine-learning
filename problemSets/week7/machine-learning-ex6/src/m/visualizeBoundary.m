@@ -18,7 +18,11 @@ end
 
 % Plot the SVM boundary
 hold on
-contour(X1, X2, vals, [0 0], 'Color', 'b');
+% TODO: We are not able to visualize the contour plot for the single level
+% specified by `[0 0]` below for some reason, so we must plot all levels;
+% fix bug.
+% contour(X1, X2, vals, [0 0], 'Color', 'b');
+contour(X1, X2, vals, 'Color', 'b');
 hold off;
 
 end
