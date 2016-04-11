@@ -87,7 +87,7 @@ while ~isempty(email_contents)
     %               vector. Concretely, if str = 'action', then you should
     %               look up the vocabulary list to find where in vocabList
     %               'action' appears. For example, if vocabList{18} =
-    %               'action', then, you should add 18 to the word_indices 
+    %               'action', then, you should add 18 to the word_indices
     %               vector (e.g., word_indices = [word_indices ; 18]; ).
     % 
     % Note: vocabList{idx} returns a the word with index idx in the
@@ -97,14 +97,16 @@ while ~isempty(email_contents)
     %       str2). It will return 1 only if the two strings are equivalent.
     %
 
-
-
-
-
-
-
-
-
+    % `f(s)` returns 1 if the string value in a cell is equal to `s`, and 0
+    % otherwise. `f(s)` is evaluated against each cell in the cell array
+    % `vocabList`.
+    % TODO: Can we do better with the search?
+    f = @(s) (@(cell_value) (strcmp(s, cell_value)));
+    index = find(cellfun(f(str), vocabList));
+    if index
+        % TODO: Can we do better with the concatenation?
+        word_indices = [word_indices index];
+    end
 
     % =============================================================
 
