@@ -48,12 +48,17 @@ x = zeros(n, 1);
 %
 %
 
-
-
-
-
-
-
+% We iterate over the word indices in the vocabulary list (distinct from
+% `word_indices`, which is essentially the contents of the email mapped to
+% the word indices) to remove the run-time dependence on the length of the
+% email (i.e., the length of `word_indices`). It is debatable whether this
+% performs better than iteratoring over `word_indices` in practice.
+for i=1:n
+    present = sum(word_indices == i);
+    if present > 0
+        x(i) = 1;
+    end
+end
 
 % =========================================================================
     
